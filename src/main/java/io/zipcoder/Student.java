@@ -54,7 +54,7 @@ public class Student {
     }
 
     public double getAverageExamScore() {
-        double sum = 0;
+        double sum = 0.0;
         for(double exam: examScores) {
             sum += exam;
         }
